@@ -25,7 +25,7 @@ class _LiveEventsState extends State<LiveEvents> {
                     size: size,
                     imagepath: "assets/images/volleyball.png",
                     title: "Looking for more players",
-                    description: "I have a ball and a volleyball net",
+                    description: "I have a ball and volleyball net",
                   ),
                   LiveEventsCard(
                     size: size,
@@ -35,9 +35,9 @@ class _LiveEventsState extends State<LiveEvents> {
                   ),
                   LiveEventsCard(
                     size: size,
-                    imagepath: "assets/images/jetski.png",
-                    title: "Race Some Jet Skiis",
-                    description: "Wanna have a  200m Race.",
+                    imagepath: "assets/images/sandcastle.png",
+                    title: "Build some Sand Castles",
+                    description: "Lets build a huge City Fort",
                   ),
                 ],
               ),
