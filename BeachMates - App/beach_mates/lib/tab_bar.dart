@@ -1,9 +1,10 @@
 import 'package:b2b/constants/colors.dart';
 import 'package:b2b/screens/live_events_screen.dart';
+import 'package:b2b/screens/third_screen/ThirdScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:b2b/SecondScreen.dart';
-import 'package:b2b/ThirdScreen.dart';
+
 
 class Tabbar extends StatelessWidget {
   @override
