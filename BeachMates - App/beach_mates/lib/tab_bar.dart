@@ -53,9 +53,9 @@ class _TabContainerIndexedStackState extends State<TabContainerIndexedStack> {
         ),
         bottomNavigationBar: CurvedNavigationBar(
           height: 60,
-          backgroundColor: kwhite,
+          backgroundColor: Colors.transparent,
           color: kyellow,
-          buttonBackgroundColor: Colors.lightBlueAccent[100],
+          buttonBackgroundColor: kblue,
           index: _currentIndex,
           onTap: (int index) {
             setState(() {
