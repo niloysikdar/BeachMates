@@ -1,32 +1,28 @@
-import 'package:b2b/tab_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:b2b/screens/live_events_screen.dart';
+import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  runApp(MyApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]).then((val) {
+    runApp(MyApp());
+  });
 }
-class MyApp extends StatelessWidget {
 
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: TabContainerIndexedStack.id,
-      routes: {
-        TabContainerIndexedStack.id: (context) =>
-            TabContainerIndexedStack(),
-      },
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('B2B'),
-        ),
-        body: Center(
-          child: Column(
-            children: [
-              Text('Hi'),
-            ],
-          ),
+      theme: ThemeData(
+        textTheme: GoogleFonts.robotoTextTheme(
+          Theme.of(context).textTheme,
         ),
       ),
+      home: LiveEvents(),
     );
   }
 }
