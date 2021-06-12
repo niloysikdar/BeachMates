@@ -1,0 +1,44 @@
+/*basic properties*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/*header and nav*/
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: whitesmoke;
+}
+
+.nav {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  margin-bottom: 10px;
+}
+
+.nav__link,
+.nav__logo {
+  color: black;
+  font-weight: bold;
+}
+
+.nav__logo:hover {
+  color: gray;
+}
+
+.nav__link {
+  transition: 0.3s;
+}
+.nav__link:hover {
+  color: var(--first-color);
+}
