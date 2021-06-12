@@ -1,4 +1,4 @@
-# beach_mates
+# b2b
 
 A new Flutter project.
 

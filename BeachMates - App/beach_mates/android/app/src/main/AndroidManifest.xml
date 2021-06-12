@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.beach_mates">
+    package="com.example.b2b">
    <application
-        android:label="beach_mates"
+        android:label="b2b"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

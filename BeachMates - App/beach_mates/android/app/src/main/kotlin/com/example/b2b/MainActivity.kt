@@ -1,4 +1,4 @@
-package com.example.beach_mates
+package com.example.b2b
 
 import io.flutter.embedding.android.FlutterActivity
 
