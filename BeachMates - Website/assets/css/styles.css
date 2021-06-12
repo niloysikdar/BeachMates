@@ -1,11 +1,11 @@
-/*===== GOOGLE FONTS =====*/
+/* GOOGLE FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/*===== VARIABLES CSS =====*/
+/* VARIABLES CSS */
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
+  /* Colors */
   --first-color: #33a6f5;
   --first-color-alt: #2c5cc4;
   --first-color-send: #5cffe6;
@@ -15,7 +15,7 @@
   --body-color: #fde5a7;
   --container-color: #fff;
 
-  /*========== Font and typography ==========*/
+  /* Font and typography */
   --body-font: "Poppins", sans-serif;
   --biggest-font-size: 2rem;
   --h2-font-size: 1.25rem;
@@ -23,18 +23,18 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
 
-  /*========== Font weight ==========*/
+  /* Font weight */
   --font-semi-bold: 600;
   --font-bold: 700;
 
-  /*========== Margenes ==========*/
+  /* Margenes */
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
   --mb-6: 3rem;
-  /*========== z index ==========*/
+  /* z index */
 
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -50,7 +50,7 @@
   }
 }
 
-/*========== BASE ==========*/
+/* BASE */
 *,
 ::before,
 ::after {
@@ -61,7 +61,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
+/* Variables Dark theme */
 body.dark-theme {
   --first-color-send: #161212;
   --title-color: #f3f1f1;
@@ -70,7 +70,7 @@ body.dark-theme {
   --container-color: #302728;
 }
 
-/*========== Button Dark/Light ==========*/
+/* Button Dark/Light */
 .change-theme {
   position: absolute;
   right: 1.5rem;
@@ -124,7 +124,7 @@ img {
   height: auto !important;
 }
 
-/*========== CLASS CSS ==========*/
+/* CLASS CSS */
 .section {
   padding: 7rem 0 2rem;
 }
@@ -137,7 +137,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-/*========== LAYOUT ==========*/
+/* LAYOUT */
 .l-main {
   overflow: hidden;
 }
@@ -163,7 +163,7 @@ img {
   background-color: var(--body-color);
 }
 
-/*========== NAV ==========*/
+/* NAV */
 .nav {
   height: var(--header-height);
   display: flex;
@@ -273,7 +273,7 @@ img {
   bottom: 1.5rem;
 }
 
-/*========== HOME ==========*/
+/* HOME */
 .home__container {
   row-gap: 0.5rem;
 }
@@ -293,7 +293,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-/*========== BUTTONS ==========*/
+/* BUTTONS */
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -319,7 +319,7 @@ img {
   color: var(--first-color-alt);
 }
 
-/*========== SHARE ==========*/
+/* SHARE */
 .share__data {
   text-align: center;
 }
@@ -333,7 +333,7 @@ img {
   justify-self: center;
 }
 
-/*========== TEAM PROFILES ==========*/
+/* TEAM PROFILES */
 .profiles__container {
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 2rem;
@@ -388,7 +388,7 @@ img {
   border-radius: 1rem 0 1rem 0;
 }
 
-/*========== FOOTER ==========*/
+/* FOOTER */
 .footer__container {
   margin: 0;
   padding: 0;
@@ -404,7 +404,7 @@ img {
   margin-top: 4rem;
 }
 
-/*========== MEDIA QUERIES ==========*/
+/* MEDIA QUERIES */
 
 /* For full-screen images on small screens */
 @media screen and (max-width: 359px) {
