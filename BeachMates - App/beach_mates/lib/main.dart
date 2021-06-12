@@ -1,3 +1,4 @@
+import 'package:b2b/tab_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      initialRoute: TabContainerIndexedStack.id,
+      routes: {
+        TabContainerIndexedStack.id: (context) =>
+            TabContainerIndexedStack(),
+      },
       home: Scaffold(
         appBar: AppBar(
           title: Text('B2B'),
