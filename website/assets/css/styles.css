@@ -40,5 +40,61 @@
   transition: 0.3s;
 }
 .nav__link:hover {
-  color: var(--first-color);
+  color: gray;
+}
+
+/*main layout*/
+.l-main {
+  overflow: hidden;
+}
+
+.bd-container {
+  max-width: 968px;
+  width: calc(100% - 3rem);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.home__container {
+  row-gap: 0.5rem;
+}
+
+.home__img {
+  width: 280px;
+  justify-self: center;
+}
+.home__title {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.home__description {
+  margin-bottom: 30px;
+}
+
+/*Button Properties*/
+.button {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+.button-link {
+  background: none;
+  padding: 0;
+  color: blueviolet;
+}
+
+.button-link:hover {
+  background-color: transparent;
+  color: blue;
 }
