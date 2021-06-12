@@ -1,53 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--Importing CSS-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BeachMates</title>
-</head>
-<body>
-    <!--Header-->
-    <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">BeachMates</a>
+        <!-- BOX ICONS -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="" class="nav__link active-link">Home</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Our App</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Our Team</a></li>
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
+        <title>BeachMates</title>
+
+        <link rel="icon" type="image/jpg" href="assets/img/logo.jpg">
+    </head>
+    <body>
+        <!-- SCROLL TOP -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!-- HEADER -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">BeachMates</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#meet" class="nav__link">Meet People</a></li>
+                        <li class="nav__item"><a href="#live" class="nav__link">Live Events</a></li>
+                        <li class="nav__item"><a href="#check" class="nav__link">Check Around</a></li>
+                        <li class="nav__item"><a href="#team" class="nav__link">Our Team</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
                     </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main class="l-main">
-        <!--HOME-->
-        <section class="home" id="home">
-            <div class="home__container bd-container bd-grid">
-                <div class="home__img">
-                    <img src="assets/img/logo.jpg" alt="">
                 </div>
 
-                <div class="home__data">
-                    <h1 class="home__title">BeachMates</h1>
-                    <p class="home__description">Hey there! This is the home screen! Will have to add some description here:)</p>
-                    <a href="" class="button">Download here</a>
-                </div>   
-            </div>
-        </section>
-    <!--App Info-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
 
-    <!--Our Team-->
-    </main>
-    <!--Footer-->
-    <footer></footer>
-    <!--Importing Javascript-->
-</body>
+        <main class="l-main">
+            <!-- HOME -->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/logo.jpg" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">BeachMates</h1>
+                        <p class="home__description">BeachMates is a must use for Summer time this year! Why? Beccause we are here to make your day and mood!</p>
+                        <a href="#" class="button">Install Now!</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!-- SHARE INFO -->
+            <!-- MEET PEOPLE -->
+            <section class="share section bd-container" id="meet">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Meet New People</h2>
+                        <p class="share__description">Spending holidays alone can never be fun. So to get ready with beachmates and find your beach buddy!</p>
+                    </div>
+
+                    <div class="share__img img__change">
+                        <img src="assets/img/phone.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- LIVE EVENTS -->
+            <section class="share section bd-container" id="live">
+                <div class="share__container bd-grid">
+                    <div class="home__data">
+                        <h2 class="section-title-center">Live Events</h2>
+                        <p class="share__description">Know what others are upto through our app! Get the topics which interest you the most!</p>
+                    </div>
+
+                    <div class="home__img double__img-container img__change">
+                        <img class="double__img-left" src="assets/img/phone.png" alt="">
+                        <img class="double__img-right" src="assets/img/phone.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- LOOK AROUND -->
+            <section class="share section bd-container" id="check">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">Check Around</h2>
+                        <p class="share__description">Always know whats happening on the beach! Best hotels, restaurants, all contests, best offers and much more!</p>
+                        <a href="#" class="button">Get the App!</a>
+                    </div>
+
+                    <div class="share__img img__change">
+                        <img src="assets/img/phone.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- OUR TEAM -->
+            <section class="profiles section bd-container" id="team">
+                <h2 class="section-title">Our Team</h2>
+                
+                <div class="profiles__container bd-grid">
+                    <div class="profiles__content">
+                        <img src="assets/img/profile.png" alt="" class="profiles__img">
+                        <h3 class="profiles__title">First Last</h3>
+                        <span class="profiles__category">Designation</span>
+                        <a href="" target="_blank" class="button profiles__button"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+
+                    <div class="profiles__content">
+                        <img src="assets/img/profile.png" alt="" class="profiles__img">
+                        <h3 class="profiles__title">First Last</h3>
+                        <span class="profiles__category">Designation</span>
+                        <a href="" target="_blank" class="button profiles__button"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+    
+                    <div class="profiles__content">
+                        <img src="assets/img/profile.png" alt="" class="profiles__img">
+                        <h3 class="profiles__title">First Last</h3>
+                        <span class="profiles__category">Designation</span>
+                        <a href="" target="_blank" class="button profiles__button"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <span class="footer__copy">all rights reserved</span>
+            </div>
+        </footer>
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
