@@ -1,4 +1,4 @@
-<div style="height: 300px; width:100px;">
+<div style="height: 300px; width:300px; padding-left: 50px;">
  <img src="https://cdn.discordapp.com/attachments/850816138500898896/852270534850379836/Beach_2.png">
 </div>
 
