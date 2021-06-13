@@ -79,7 +79,7 @@ help people come together, get involved with other people, make new friends, and
 
 [👨‍💻Gaurav](https://github.com/ctrl-gaurav)
 
-[🧑🏫Parth Chadha](https://github.com/Itsme-Parth)
+[🤔Parth Chadha](https://github.com/Itsme-Parth)
 
 [👨‍💻Niloy Sikdar](https://github.com/niloysikdar)
 
