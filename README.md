@@ -66,11 +66,11 @@ help people come together, get involved with other people, make new friends, and
 
 ## Project Links
 
-[##🖥️ Website Link](http://meetbeachmateswith.us/)
+[🖥️ Website Link](http://meetbeachmateswith.us/)
 
 <br>
 
-[##🖌️Figma Link](https://www.figma.com/file/y5nuklwFb8srz5PKhZYIWb/BEACHMATES-FINAL)
+[🖌️Figma Link](https://www.figma.com/file/y5nuklwFb8srz5PKhZYIWb/BEACHMATES-FINAL)
 
 
 
