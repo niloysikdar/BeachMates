@@ -30,6 +30,8 @@ During the ideation stage, choosing to build a community-builder/supporter rathe
 
 Bringing the whole team in line with the vision and vibe of the theme whilst maintaining an unbiased perspective, and promoting innovative ideas was a tumultuous task.
 
+Also while developing the app we came across many problems such as when linking firebase the app wasn’t been able to fetch data properly , but it was uploading. After solving this data retrieval thing our app wasn’t been apple to show all cards at once as it was not scrollable despite of using dart scrollview package. We researched this on stack overflow and official flutter documentation and then we were able to fix all these issues and managed to finalize our app within provided time.
+
 ## 👏 Accomplishments we are proud of:
 
 We are proud to have built the live events feature into the app, that fetches data from the server and also allows the participants to create another event. This feature shows our inclination towards the importance of teamwork, collaboration, and effective communication, some key principles which we tried to incorporate while executing this project. Other than this feature, we are extremely proud of the video and website team who have put huge efforts into the making of this project.
