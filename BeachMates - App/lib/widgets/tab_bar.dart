@@ -25,15 +25,15 @@ class TabContainerIndexedStack extends StatefulWidget {
 }
 
 class _TabContainerIndexedStackState extends State<TabContainerIndexedStack> {
-  int tabIndex = 0;
-  int _currentIndex = 0;
+  int tabIndex = 1;
+  int _currentIndex = 1;
   List<Widget> listScreens;
   @override
   void initState() {
     super.initState();
     listScreens = [
-      LiveEvents(),
       SecondScreen(),
+      LiveEvents(),
       ThirdScreen(),
     ];
   }
@@ -46,8 +46,8 @@ class _TabContainerIndexedStackState extends State<TabContainerIndexedStack> {
         body: IndexedStack(
           index: _currentIndex,
           children: [
-            LiveEvents(),
             SecondScreen(),
+            LiveEvents(),
             ThirdScreen(),
           ],
         ),
@@ -63,21 +63,41 @@ class _TabContainerIndexedStackState extends State<TabContainerIndexedStack> {
             });
           },
           items: <Widget>[
-            Icon(
-              Icons.home,
-              size: 30,
-              color: Colors.white,
+            // Icon(
+            //   Icons.home,
+            //   size: 30,
+            //   color: Colors.white,
+            // ),
+            Container(
+              width: 30,
+              height: 30,
+              child: Image.asset("assets/images/image15.png"),
             ),
-            Icon(
-              Icons.view_list_rounded,
-              size: 30,
-              color: Colors.white,
+            Container(
+              width: 30,
+              height: 30,
+              child: Image.asset("assets/images/image10.png"),
             ),
-            Icon(
-              Icons.save_rounded,
-              size: 30,
-              color: Colors.white,
+            Container(
+              width: 30,
+              height: 30,
+              child: Image.asset("assets/images/image13.png"),
             ),
+
+            // SvgPicture.asset(
+            //   "assets/icons/image15.svg",
+            //   height: 10,
+            // ),
+            // Icon(
+            //   Icons.view_list_rounded,
+            //   size: 30,
+            //   color: Colors.white,
+            // ),
+            // Icon(
+            //   Icons.save_rounded,
+            //   size: 30,
+            //   color: Colors.white,
+            // ),
           ],
         ),
       ),
