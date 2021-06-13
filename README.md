@@ -63,3 +63,14 @@ Coming to beaches there aren’t many apps that help people to collaborate and p
 So we stepped up and created our application BeachMates which is a true blend of both fun and collaboration that would 
 
 help people come together, get involved with other people, make new friends, and enjoy the summer to the fullest.
+
+## Project Links
+
+[Website Link](http://meetbeachmateswith.us/)
+
+<br>
+
+[Figma Link](https://www.figma.com/file/y5nuklwFb8srz5PKhZYIWb/BEACHMATES-FINAL)
+
+
+
