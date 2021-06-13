@@ -1,17 +1,16 @@
 import 'package:b2b/constants/colors.dart';
+import 'package:b2b/models/event_model.dart';
 import 'package:b2b/screens/event_details_screen.dart';
 import 'package:flutter/material.dart';
 
 class LiveEventsCard extends StatelessWidget {
   final Size size;
   final String imagepath;
-  final String title;
-  final String postedBy;
+  final EventModel eventModel;
   LiveEventsCard({
     @required this.size,
     @required this.imagepath,
-    @required this.title,
-    @required this.postedBy,
+    @required this.eventModel,
   });
 
   @override
@@ -21,7 +20,7 @@ class LiveEventsCard extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => EventDetails(),
+            builder: (context) => EventDetails(eventModel: eventModel),
           ),
         );
       },
@@ -42,7 +41,7 @@ class LiveEventsCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    title,
+                    eventModel.title,
                     style: TextStyle(
                       fontSize: 19,
                       fontWeight: FontWeight.bold,
@@ -50,7 +49,7 @@ class LiveEventsCard extends StatelessWidget {
                   ),
                   SizedBox(height: 5),
                   Text(
-                    "Posted By $postedBy",
+                    "Posted By ${eventModel.postedBy}",
                     style: TextStyle(
                       fontSize: 16,
                     ),

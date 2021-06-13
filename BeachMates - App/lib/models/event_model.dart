@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class EventModel {
@@ -30,4 +31,22 @@ class EventModel {
       "category": category,
     };
   }
+}
+
+EventModel getEventModel({
+  @required QueryDocumentSnapshot<Object> documentSnapshot,
+}) {
+  return EventModel(
+    id: documentSnapshot["id"],
+    title: documentSnapshot["title"],
+    postedBy: documentSnapshot["postedBy"],
+    description: documentSnapshot["description"],
+    allpeople: (documentSnapshot["allpeople"] != null)
+        ? documentSnapshot["allpeople"]
+        : [],
+    comments: (documentSnapshot["comments"] != null)
+        ? documentSnapshot["comments"]
+        : [],
+    category: documentSnapshot["category"],
+  );
 }

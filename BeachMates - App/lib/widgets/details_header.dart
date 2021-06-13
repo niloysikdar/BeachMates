@@ -1,8 +1,12 @@
 import 'package:b2b/constants/colors.dart';
+import 'package:b2b/models/event_model.dart';
 import 'package:b2b/widgets/header_icons.dart';
 import 'package:flutter/material.dart';
 
-Widget detailsHeader({@required Size size}) {
+Widget detailsHeader({
+  @required Size size,
+  @required EventModel eventModel,
+}) {
   return Container(
     width: size.width,
     padding: EdgeInsets.only(
@@ -19,6 +23,7 @@ Widget detailsHeader({@required Size size}) {
       ),
     ),
     child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           children: [
@@ -29,7 +34,7 @@ Widget detailsHeader({@required Size size}) {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Looking for more players",
+                    eventModel.title,
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
@@ -37,7 +42,7 @@ Widget detailsHeader({@required Size size}) {
                   ),
                   SizedBox(height: 6),
                   Text(
-                    "Posted by Parth Chadha",
+                    "Posted by ${eventModel.postedBy}",
                     style: TextStyle(
                       fontSize: 18,
                       color: Colors.black54,
@@ -49,9 +54,9 @@ Widget detailsHeader({@required Size size}) {
           ],
         ),
         Padding(
-          padding: EdgeInsets.symmetric(vertical: 10),
+          padding: EdgeInsets.symmetric(vertical: 12),
           child: Text(
-            "Hi everybody!\nThis is Parth, I tend to come to the beach quite often and I love to play beach voleyball. I have a ball as well, would you like to join me for the event? looking forward to meet with new people!!",
+            eventModel.description,
             style: TextStyle(
               fontSize: 17,
               color: Colors.black,
@@ -64,7 +69,7 @@ Widget detailsHeader({@required Size size}) {
             detailsHeaderIcon(
               icon: Icons.group,
               iconcolor: Colors.grey,
-              title: "3",
+              title: eventModel.allpeople.length.toString(),
             ),
             detailsHeaderIcon(
               icon: Icons.notifications,

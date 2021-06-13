@@ -5,6 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:b2b/screens/login_signup/intro_page.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,9 +33,11 @@ class MyApp extends StatelessWidget {
         ),
         scaffoldBackgroundColor: kwhite,
       ),
-      initialRoute: TabContainerIndexedStack.id,
+      // initialRoute: TabContainerIndexedStack.id,
+      initialRoute: IntroPage.id,
       routes: {
         TabContainerIndexedStack.id: (context) => TabContainerIndexedStack(),
+        IntroPage.id: (context) => IntroPage(),
       },
     );
   }
