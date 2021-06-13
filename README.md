@@ -1,3 +1,7 @@
+<div>
+ <img style="height: 300px; width:100px;" src="https://cdn.discordapp.com/attachments/850816138500898896/852270534850379836/Beach_2.png">
+</div>
+
 # BeachMates
 
 ## 💡Inspiration
