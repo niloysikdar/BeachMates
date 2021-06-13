@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "56262627278",
+    "project_id": "surf-hacks",
+    "storage_bucket": "surf-hacks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56262627278:android:11870a57ffd5825bdae59f",
+        "android_client_info": {
+          "package_name": "com.example.b2b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56262627278-6vn9alm0lo540do3l3umnfann077q77v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY2OWIwF9grDyCEZTZ8mTwI80M3camVUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56262627278-6vn9alm0lo540do3l3umnfann077q77v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
