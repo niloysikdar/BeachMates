@@ -1,10 +1,10 @@
 # BeachMates
 
-💡Inspiration
+## 💡Inspiration
 
 What is the first thing which comes to your mind when you hear the words beach, ocean, and summer, for our team it was fun and amusement. Another thing our team strongly believes in is Collaboration. And hence, we got to market research to find the blend of the two ideas and surprisingly found that there aren’t any applications that support community building and bring people together to collaborate and have summer fun by doing activities like playing volleyball, frisbee, and other water sports like jet skiing, etc. together, and hence, created our solution BeachMates.
 
-💻 What it does
+## 💻 What it does
 Our application provides three major functionalities which are as follows:
 
 Live Events: The “live events” feature is the highlight feature of our app, this page on our application works like a posting wall where people can post about what activity are they currently doing at the beach with a brief description of the same and calls out for people who are interested to join the same activity. Users can click on our join button and even comment on the post to create a more inclusive and collaborative environment in the application.
@@ -14,7 +14,7 @@ Check Around: The “Check Around” feature sorts out the problem of tourists t
 Meet New People: The “meet new people” page on our application increases the community bonding by multiple folds. This page allows the user to find and meet new people based on their interests that might be cuisines, love for dogs, or something else. The user can choose to interact or not by swiping right or left respectively.
 
 
-🚩 How we built it
+## 🚩 How we built it
 
 The ideation stage: After an intense brainstorming session it was apparent that niche community builder apps - like Reddit, StackExchange are a hit and passionate people are always looking to meet others of the same interests.
 
@@ -24,7 +24,7 @@ The development stage: To ensure that the app was available on both android and 
 
 
 
-🤼‍♂️ Challenges we ran into:
+## 🤼‍♂️ Challenges we ran into:
 
 During the ideation stage, choosing to build a community-builder/supporter rather than a solution that focused more on the problem of organized social distancing and still promoting fun was a difficult one, but we soon determined that it would be more along with the theme of the hackathon if we did something fun and spontaneous.
 
@@ -32,14 +32,14 @@ Members of our team were quite uneasy due to the side effects of the covid 19 va
 
 Bringing the whole team in line with the vision and vibe of the theme whilst maintaining an unbiased perspective, and promoting innovative ideas was a tumultuous task.
 
-👏 Accomplishments we are proud of:
+## 👏 Accomplishments we are proud of:
 
 We are proud to have built the live events feature into the app, that fetches data from the server and also allows the participants to create another event. This feature shows our inclination towards the importance of teamwork, collaboration, and effective communication, some key principles which we tried to incorporate while executing this project. Other than this feature, we are extremely proud of the video and website team who have put huge efforts into the making of this project.
 
 
 
  
-📚 What we learned :
+## 📚 What we learned :
 
 UI Team: We were able to further hone our design - decision-making skills by scouring through multiple dribble categories for inspiration and broadening our knowledge. We learned the importance of a consistent Color Palette and the design liberty that restricting to 4 primary colors brings to the table (sounds ironic).
 
@@ -49,7 +49,7 @@ Web team: This was the first time making a product/ company portfolio type websi
 
 Video Making Team: I learned how to make complicated 3D transitions in After Effects and realized the time and effort that goes into making plugins for video editors, it put the youtube editor’s hard work into perspective, my respect for animators has grown sincerely.
 
-🤔 What’s next for our product :
+## 🤔 What’s next for our product :
 
 We would like to add a robust and secure authentication system built from scratch and monitor user data to better re-design and develop our product when we introduce it to market or scale it for other similar niche communities.
 
