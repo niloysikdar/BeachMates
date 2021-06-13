@@ -75,6 +75,6 @@ help people come together, get involved with other people, make new friends, and
 
 ## Team Links
 
-###[Shuchit Pant](https://github.com/shuchitpant)
+[Shuchit Pant](https://github.com/shuchitpant)
 
 
