@@ -6,12 +6,12 @@ class LiveEventsCard extends StatelessWidget {
   final Size size;
   final String imagepath;
   final String title;
-  final String description;
+  final String postedBy;
   LiveEventsCard({
     @required this.size,
     @required this.imagepath,
     @required this.title,
-    @required this.description,
+    @required this.postedBy,
   });
 
   @override
@@ -50,7 +50,7 @@ class LiveEventsCard extends StatelessWidget {
                   ),
                   SizedBox(height: 5),
                   Text(
-                    description,
+                    "Posted By $postedBy",
                     style: TextStyle(
                       fontSize: 16,
                     ),

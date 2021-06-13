@@ -1,15 +1,16 @@
-import 'package:b2b/models/comment_model.dart';
 import 'package:flutter/material.dart';
 
 class EventModel {
+  final String id;
   final String title;
   final String postedBy;
   final String description;
-  final List<String> allpeople;
-  final List<CommentModel> comments;
+  final List allpeople;
+  final List comments;
   final String category;
 
   EventModel({
+    @required this.id,
     @required this.title,
     @required this.postedBy,
     @required this.description,
@@ -20,6 +21,7 @@ class EventModel {
 
   Map<String, dynamic> toMap() {
     return {
+      "id": id,
       "title": title,
       "postedBy": postedBy,
       "description": description,

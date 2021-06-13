@@ -1,3 +1,4 @@
+import 'package:b2b/models/event_model.dart';
 import 'package:b2b/widgets/live_events_cards.dart';
 import 'package:b2b/widgets/sorting_text.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -32,11 +33,27 @@ class _LiveEventsState extends State<LiveEvents> {
                       shrinkWrap: true,
                       itemCount: snapshot.data.docs.length,
                       itemBuilder: (context, index) {
-                        return Text(snapshot.data.docs[index]["title"]);
+                        EventModel eventModel = EventModel(
+                          id: snapshot.data.docs[index]["id"],
+                          title: snapshot.data.docs[index]["title"],
+                          postedBy: snapshot.data.docs[index]["postedBy"],
+                          description: snapshot.data.docs[index]["description"],
+                          allpeople: snapshot.data.docs[index]["allpeople"],
+                          comments: snapshot.data.docs[index]["comments"],
+                          category: snapshot.data.docs[index]["category"],
+                        );
+                        return LiveEventsCard(
+                          size: size,
+                          imagepath: "assets/images/volleyball.png",
+                          title: eventModel.title,
+                          postedBy: eventModel.postedBy,
+                        );
                       },
                     );
                   } else if (snapshot.hasError) {
-                    return Text("Error");
+                    return Center(
+                      child: Text("Error"),
+                    );
                   } else {
                     return Center(
                       child: CircularProgressIndicator(),
