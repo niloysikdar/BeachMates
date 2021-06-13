@@ -1,4 +1,5 @@
 import 'package:b2b/widgets/live_events_cards.dart';
+import 'package:b2b/widgets/sorting_text.dart';
 import 'package:flutter/material.dart';
 import 'package:b2b/widgets/live_events_header.dart';
 
@@ -18,7 +19,7 @@ class _LiveEventsState extends State<LiveEvents> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               liveEventsHeader(size: size),
-              sortText(),
+              sortText(text: "Sort by: Newest"),
               Column(
                 children: [
                   LiveEventsCard(
@@ -43,19 +44,6 @@ class _LiveEventsState extends State<LiveEvents> {
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget sortText() {
-    return Padding(
-      padding: const EdgeInsets.all(20),
-      child: Text(
-        "Sort by: Newest",
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
         ),
       ),
     );

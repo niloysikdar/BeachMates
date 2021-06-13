@@ -1,4 +1,5 @@
 import 'package:b2b/widgets/live_events_header.dart';
+import 'package:b2b/widgets/sorting_text.dart';
 import 'package:flutter/material.dart';
 
 class SecondScreen extends StatefulWidget {
@@ -17,7 +18,7 @@ class _SecondScreenState extends State<SecondScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               liveEventsHeader(size: size),
-              sortText(),
+              sortText(text: "Sort by: Newest"),
               Padding(
                 padding: const EdgeInsets.all(28.0),
                 child: Container(
@@ -156,19 +157,6 @@ class _SecondScreenState extends State<SecondScreen> {
               // ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget sortText() {
-    return Padding(
-      padding: const EdgeInsets.all(20),
-      child: Text(
-        "Top Rated",
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
         ),
       ),
     );
