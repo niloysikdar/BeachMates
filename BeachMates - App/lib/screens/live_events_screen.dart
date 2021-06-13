@@ -16,13 +16,14 @@ class _LiveEventsState extends State<LiveEvents> {
     Size size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
-        body: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              liveEventsHeader(size: size),
-              sortText(text: "Sort by: Newest"),
-              StreamBuilder(
+        body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            liveEventsHeader(size: size, context: context),
+            sortText(text: "Sort by: Newest"),
+            Container(
+              height: size.height * 0.5,
+              child: StreamBuilder(
                 stream: FirebaseFirestore.instance
                     .collection("liveEvents")
                     .snapshots(),
@@ -33,20 +34,13 @@ class _LiveEventsState extends State<LiveEvents> {
                       shrinkWrap: true,
                       itemCount: snapshot.data.docs.length,
                       itemBuilder: (context, index) {
-                        EventModel eventModel = EventModel(
-                          id: snapshot.data.docs[index]["id"],
-                          title: snapshot.data.docs[index]["title"],
-                          postedBy: snapshot.data.docs[index]["postedBy"],
-                          description: snapshot.data.docs[index]["description"],
-                          allpeople: snapshot.data.docs[index]["allpeople"],
-                          comments: snapshot.data.docs[index]["comments"],
-                          category: snapshot.data.docs[index]["category"],
+                        EventModel eventModel = getEventModel(
+                          documentSnapshot: snapshot.data.docs[index],
                         );
                         return LiveEventsCard(
                           size: size,
                           imagepath: "assets/images/volleyball.png",
-                          title: eventModel.title,
-                          postedBy: eventModel.postedBy,
+                          eventModel: eventModel,
                         );
                       },
                     );
@@ -61,30 +55,30 @@ class _LiveEventsState extends State<LiveEvents> {
                   }
                 },
               ),
-              // Column(
-              //   children: [
-              //     LiveEventsCard(
-              //       size: size,
-              //       imagepath: "assets/images/volleyball.png",
-              //       title: "Looking for more players",
-              //       description: "I have a ball and volleyball net",
-              //     ),
-              //     LiveEventsCard(
-              //       size: size,
-              //       imagepath: "assets/images/jetski.png",
-              //       title: "Race Some Jet Skiis",
-              //       description: "Wanna have a  200m Race.",
-              //     ),
-              //     LiveEventsCard(
-              //       size: size,
-              //       imagepath: "assets/images/sandcastle.png",
-              //       title: "Build some Sand Castles",
-              //       description: "Lets build a huge City Fort",
-              //     ),
-              //   ],
-              // ),
-            ],
-          ),
+            ),
+            // Column(
+            //   children: [
+            //     LiveEventsCard(
+            //       size: size,
+            //       imagepath: "assets/images/volleyball.png",
+            //       title: "Looking for more players",
+            //       description: "I have a ball and volleyball net",
+            //     ),
+            //     LiveEventsCard(
+            //       size: size,
+            //       imagepath: "assets/images/jetski.png",
+            //       title: "Race Some Jet Skiis",
+            //       description: "Wanna have a  200m Race.",
+            //     ),
+            //     LiveEventsCard(
+            //       size: size,
+            //       imagepath: "assets/images/sandcastle.png",
+            //       title: "Build some Sand Castles",
+            //       description: "Lets build a huge City Fort",
+            //     ),
+            //   ],
+            // ),
+          ],
         ),
       ),
     );
