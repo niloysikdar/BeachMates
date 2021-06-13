@@ -39,9 +39,6 @@ Bringing the whole team in line with the vision and vibe of the theme whilst mai
 ## 👏 Accomplishments we are proud of:
 
 We are proud to have built the live events feature into the app, that fetches data from the server and also allows the participants to create another event. This feature shows our inclination towards the importance of teamwork, collaboration, and effective communication, some key principles which we tried to incorporate while executing this project. Other than this feature, we are extremely proud of the video and website team who have put huge efforts into the making of this project.
-
-
-
  
 ## 📚 What we learned :
 
@@ -63,8 +60,6 @@ We would also like to design an audio room feature for the community, so that be
 ## Project Links
 
 [🖥️ Website Link](http://meetbeachmateswith.us/)
-
-<br>
 
 [🖌️Figma Link](https://www.figma.com/file/y5nuklwFb8srz5PKhZYIWb/BEACHMATES-FINAL)
 
