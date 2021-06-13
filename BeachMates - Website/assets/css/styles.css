@@ -535,13 +535,13 @@ img {
   .double__img-left {
     position: relative;
     top: 0;
-    left: -90px;
+    left: -150px;
   }
 
   .double__img-right {
     position: absolute;
     top: 0;
-    left: 350px;
+    left: 150px;
   }
 
   .share__img {
