@@ -77,4 +77,11 @@ help people come together, get involved with other people, make new friends, and
 
 [Shuchit Pant](https://github.com/shuchitpant)
 
+[Gaurav](https://github.com/ctrl-gaurav)
+
+[Parth Chadha](https://github.com/Itsme-Parth)
+
+[Niloy Sikdar](https://github.com/niloysikdar)
+
+[Ojaswi Singh](https://github.com/ojaswi1013)
 
