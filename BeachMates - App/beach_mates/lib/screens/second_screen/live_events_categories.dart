@@ -1,18 +1,18 @@
 final List liveEventsCategories = [
   {
     "image": "assets/images/surfing.png",
-    "category": "Food",
+    "category": "Surfing",
   },
   {
     "image": "assets/images/volleyball.png",
-    "category": "Fly Boarding",
+    "category": "Volleyball",
   },
   {
     "image": "assets/images/jetski.png",
-    "category": "Surf Boarding",
+    "category": "Jet Ski",
   },
   {
     "image": "assets/images/sandcastle.png",
-    "category": "Jet Skiing",
+    "category": "Sand Castle",
   },
 ];

@@ -1,6 +1,5 @@
-import 'package:b2b/widgets/live_events_cards.dart';
 import 'package:flutter/material.dart';
-import 'package:b2b/widgets/live_events_header.dart';
+import 'package:b2b/screens/second_screen/live_events_header.dart';
 
 
 class SecondScreen extends StatefulWidget {
@@ -182,7 +181,7 @@ class _SecondScreenState extends State<SecondScreen> {
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Text(
-        "Sort by: Newest",
+        "Top Rated",
         style: TextStyle(
           fontSize: 20,
           fontWeight: FontWeight.bold,
