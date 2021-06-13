@@ -1,10 +1,15 @@
 import 'package:b2b/constants/colors.dart';
+import 'package:b2b/models/event_model.dart';
 import 'package:b2b/widgets/comment.dart';
 import 'package:b2b/widgets/details_header.dart';
 import 'package:b2b/widgets/sorting_text.dart';
 import 'package:flutter/material.dart';
 
 class EventDetails extends StatelessWidget {
+  final EventModel eventModel;
+
+  EventDetails({@required this.eventModel});
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -20,7 +25,7 @@ class EventDetails extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              detailsHeader(size: size),
+              detailsHeader(size: size, eventModel: eventModel),
               sortText(text: "Sort by: Newest"),
               commentCard(
                 size: size,
