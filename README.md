@@ -28,8 +28,6 @@ The development stage: To ensure that the app was available on both android and 
 
 During the ideation stage, choosing to build a community-builder/supporter rather than a solution that focused more on the problem of organized social distancing and still promoting fun was a difficult one, but we soon determined that it would be more along with the theme of the hackathon if we did something fun and spontaneous.
 
-Members of our team were quite uneasy due to the side effects of the covid 19 vaccine, going through this physical and emotional pressure all whilst maintaining a sense of enthusiasm amongst the team members was also quite difficult.
-
 Bringing the whole team in line with the vision and vibe of the theme whilst maintaining an unbiased perspective, and promoting innovative ideas was a tumultuous task.
 
 ## 👏 Accomplishments we are proud of:
@@ -55,14 +53,6 @@ We would like to add a robust and secure authentication system built from scratc
 
 We would also like to design an audio room feature for the community, so that beach lovers can talk about their latest beach trends and news right on our platform and don’t have to create a separate discord server. 
 
--------------------------------------------------------------------------------------------------------------
-Our team believes in collaborating with people for fun as well as work and Surfs Up Hacks being a fun beach theme hackathon we tried to blend the idea of collaboration and fun for our solution. 
-
-Coming to beaches there aren’t many apps that help people to collaborate and play fun beach sports like volleyball, frisbee, and even enjoy various restaurants, water sports, and other amusing activities around the beach.
-
-So we stepped up and created our application BeachMates which is a true blend of both fun and collaboration that would 
-
-help people come together, get involved with other people, make new friends, and enjoy the summer to the fullest.
 
 ## Project Links
 
