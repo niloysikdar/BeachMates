@@ -75,13 +75,13 @@ help people come together, get involved with other people, make new friends, and
 
 ## Team Links
 
-[Shuchit Pant](https://github.com/shuchitpant)
+[👨‍🎨Shuchit Pant](https://github.com/shuchitpant)
 
-[Gaurav](https://github.com/ctrl-gaurav)
+[👨‍💻Gaurav](https://github.com/ctrl-gaurav)
 
-[Parth Chadha](https://github.com/Itsme-Parth)
+[🧑🏫Parth Chadha](https://github.com/Itsme-Parth)
 
-[Niloy Sikdar](https://github.com/niloysikdar)
+[👨‍💻Niloy Sikdar](https://github.com/niloysikdar)
 
-[Ojaswi Singh](https://github.com/ojaswi1013)
+[👨‍💻Ojaswi Singh](https://github.com/ojaswi1013)
 
