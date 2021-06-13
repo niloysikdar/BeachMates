@@ -1,5 +1,5 @@
 import 'package:b2b/constants/colors.dart';
-import 'package:b2b/tab_bar.dart';
+import 'package:b2b/widgets/tab_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';

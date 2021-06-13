@@ -1,6 +1,5 @@
+import 'package:b2b/widgets/live_events_header.dart';
 import 'package:flutter/material.dart';
-import 'package:b2b/screens/second_screen/live_events_header.dart';
-
 
 class SecondScreen extends StatefulWidget {
   @override
@@ -30,16 +29,13 @@ class _SecondScreenState extends State<SecondScreen> {
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
                           image: AssetImage('assets/images/item_1.png'),
-                          fit: BoxFit.cover
-                      ),
+                          fit: BoxFit.cover),
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey[400],
                             blurRadius: 10,
-                            offset: Offset(0, 10)
-                        )
-                      ]
-                  ),
+                            offset: Offset(0, 10))
+                      ]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -50,11 +46,9 @@ class _SecondScreenState extends State<SecondScreen> {
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                              ],
+                              children: <Widget>[],
                             ),
                           ),
-
                         ],
                       ),
                     ],
@@ -72,16 +66,13 @@ class _SecondScreenState extends State<SecondScreen> {
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
                           image: AssetImage('assets/images/item_1.png'),
-                          fit: BoxFit.cover
-                      ),
+                          fit: BoxFit.cover),
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey[400],
                             blurRadius: 10,
-                            offset: Offset(0, 10)
-                        )
-                      ]
-                  ),
+                            offset: Offset(0, 10))
+                      ]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -92,11 +83,9 @@ class _SecondScreenState extends State<SecondScreen> {
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                              ],
+                              children: <Widget>[],
                             ),
                           ),
-
                         ],
                       ),
                     ],
@@ -114,16 +103,13 @@ class _SecondScreenState extends State<SecondScreen> {
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
                           image: AssetImage('assets/images/item_1.png'),
-                          fit: BoxFit.cover
-                      ),
+                          fit: BoxFit.cover),
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey[400],
                             blurRadius: 10,
-                            offset: Offset(0, 10)
-                        )
-                      ]
-                  ),
+                            offset: Offset(0, 10))
+                      ]),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -134,11 +120,9 @@ class _SecondScreenState extends State<SecondScreen> {
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: <Widget>[
-                              ],
+                              children: <Widget>[],
                             ),
                           ),
-
                         ],
                       ),
                     ],
