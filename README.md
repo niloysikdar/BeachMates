@@ -73,4 +73,8 @@ help people come together, get involved with other people, make new friends, and
 [🖌️Figma Link](https://www.figma.com/file/y5nuklwFb8srz5PKhZYIWb/BEACHMATES-FINAL)
 
 
+## Team Links
+
+###[Shuchit Pant](https://github.com/shuchitpant)
+
 
